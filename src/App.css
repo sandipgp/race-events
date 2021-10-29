@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 91%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #F7f7f7;
+  font-family: 'Arial', sans-serif;
+}
+
+.m-login form {
+    margin-top: 20%;
+    background: beige;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.m-login form div {
+  margin-top: 10px;
+}
+
+.horse-list {
+  list-style-type: none;
+}
+
+.horse-list li {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.horse-list li label {
+   width: 30%;
+   border-right: 1px solid;
+}
+
+
+header, .row {
+  display: flex; 
+}
+
+header{ background-color: #2d3b55ed; color: #fff; font-weight: bold; }
+
+.col {
+  flex: 1;  
+  text-align: left;
+  border: 1px solid #dddada;
+  padding: 10px;
+}
+
+.right { text-align: right;}

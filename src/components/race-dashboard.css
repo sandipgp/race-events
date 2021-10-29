@@ -1,0 +1,21 @@
+.raceDashboardContainer {
+    width: 100%;
+}
+h1.heading{
+    padding: 20px 20px 2px 10px;
+    text-align: left;
+    border-bottom: 5px solid #2d3b55ed;
+    width: 290px;
+    color: #2d3b55;
+    margin-bottom: 20px;
+}
+
+.error{
+    margin: 20px 0px 10px 40px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid red;
+    width: 85%;
+    color: red;
+    background-color:#fbd2d8;
+}
